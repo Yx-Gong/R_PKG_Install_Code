@@ -1,0 +1,11 @@
+# This script can skip the tedious package installing and requiring steps
+# Just put the names of the packages you need in the first line and run.
+
+# replace pkg1, pkg2, pkgn with package names that you want to install
+package_list <- c("pkg1", "pkg2", "pkg3")
+# record those packages not already installed as new_packages
+new_packages <- package_list[!(package_list %in% installed.packages()[,"Package"])]
+# if there are new packages to be install, then we install the new packages.
+if(length(new_packages)) install.packages(new_packages) 
+# require packages and return TRUE if they are correctly required.
+lapply(package_list, require, character.only=T)
