@@ -27,6 +27,9 @@ What happened on me is that I don't want to wait in front of the machine to type
 Also it is not always a easy job to identify those packages not installed.
 
 This is why I am trying to make it automatically.
+
 Automatically identify those not installed.
+
 Automatically install.
+
 Automatically require.
