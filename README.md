@@ -18,9 +18,9 @@ For those packages already installed on the machine, we can simply use
 to load.
 
 For those packages not installed yet, we have to identify them first and use 
-``` install.packages(c("package_name_1", "package_name_2"))
-require (package_name_1)
-require (package_name_2)```
+``` install.packages(c("package_name_1", "package_name_2")) ```
+```require (package_name_1)```
+```require (package_name_2)```
 to load.
 
 What happened on me is that I don't want to wait in front of the machine to type the require command after installation.
